@@ -1,0 +1,144 @@
+body{
+  font-family:Arial;
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+
+}
+
+.logo{
+  padding-left:30px;
+  padding-top:10px;
+}
+
+.navbar {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.opportunity{
+  padding-top:22px;
+  padding-left:500px;
+  text-decoration: none;
+  
+}
+
+.recruit{
+  padding-top:22px;
+  padding-left:45px;
+  text-decoration: none;
+}
+
+.social{
+  padding-top:22px;
+  padding-left:45px;
+  text-decoration: none;
+}
+
+.shop{
+  padding-top:22px;
+  padding-left:45px;
+  text-decoration: none;
+}
+
+.signin{
+  padding-top:22px;
+  padding-left:45px;
+  text-decoration: none;
+}
+
+.join{
+  padding-top:22px;
+  padding-left:45px;
+  text-decoration: none;
+}
+
+
+.navbar a{
+  text-decoration:none;
+  color:black;
+}
+
+.navbar a:hover{
+  color:#5271FF;
+  text-decoration:bold;
+}
+
+
+
+
+.search-container {
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.search-container img {
+  /* height: 600px;
+  width: 1000px; */
+  display: block; /* Ensure the image behaves as a block element */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+
+  border-radius: 10px;
+  width:70%;
+  max-width:600px;
+}
+
+.overlay h1 {
+  font-size: 24px;
+  margin: 0 0 10px; /* Combine margin shorthand */
+}
+
+.overlay form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.overlay label,
+.overlay input,
+.overlay button {
+  margin: 5px;
+}
+
+.overlay input[type="text"] {
+  width: 80%; /* Adjust width as needed */
+  max-width: 400px; /* Adjust max-width as needed */
+  padding: 10px; /* Adjust padding as needed */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius */
+  
+}
+
+.overlay button[type="submit"] {
+  width: 100%; /* Make the button full-width */
+  padding: 10px 20px; /* Adjust padding as needed */
+  background-color: #5271FF; /* Blue background color */
+  color: white; 
+  border: none;
+  border-radius: 5px; 
+  cursor: pointer;
+}
+
+.overlay button[type="submit"]:hover {
+  background-color:#5271FF; 
+}
+
+.genre{
+  text-align:center;
+}
+
+
+
